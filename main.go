@@ -2,6 +2,12 @@ package main
 
 import "fmt"
 
+var score = 99.5
 func main() {
-	fmt.Println("Hello world")
+	sayHello("Tresor")
+
+	for _, v := range points {
+		fmt.Println(v)
+	}
+	showScore()
 }
